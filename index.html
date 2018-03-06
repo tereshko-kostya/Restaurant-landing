@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Site</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Kostya Tereshko">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<link rel="stylesheet" href="css/main.css">
+
+	</head>
+	<body>
+		<div class="conteiner-fluid">			
+			<section id="cover">
+				<header id="header">
+					<div class="content_position">
+						<div class="logo">
+							<a href="#">
+								<img src="images/logo.png" alt="logo">
+							</a>
+						</div>
+						<div class="nav">
+							<ul class="nav-list">
+								<li class="nav-item"><a href="#our-dishes">Dishes</a></li>
+								<li class="nav-item"><a href="#quotes">Quotes</a></li>
+								<li class="nav-item"><a href="#features">Features</a></li>
+							</ul>
+						</div>
+					</div>
+				</header>
+				<div class="content_position">
+					<div class="about">
+						<h1>The best restaurant</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#" class="button">BOOK A TABLE</a>
+					</div>
+				</div>
+			</section>
+			<section id="our-dishes">
+				<div class="content_position">
+					<div class="dishes">
+						<div class="title">
+							<h2>Our dishes</h2>
+						</div>
+						<!--Carousel-->
+						<div class="dishes-carousel">
+							<div class="dish">
+								<div class="dish-image">
+									<img src="images/dishes/burger.jpg" alt="Burger">
+								</div>
+								<p>Burger</p>
+							</div>
+							<div class="dish">
+								<div class="dish-image">
+									<img src="images/dishes/steak.jpg" alt="Steak">
+								</div>
+								<p>Steak</p>
+							</div>
+							<div class="dish">
+								<div class="dish-image">
+									<img src="images/dishes/pizza.jpg" alt="Pizza">
+								</div>
+								<p>Pizza</p>
+							</div>
+							<div class="dish">
+								<div class="dish-image">
+									<img src="images/dishes/pasta.jpg" alt="Pasta">
+								</div>
+								<p>Pasta</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="quotes">
+				<div class="content_position">
+					<div class="quote-text">
+						<p class="quote">“Lorem ipsum and other texts.<br>We are the best restaurant.“</p>
+						<p class="quote-author">Paul Tasty, chef</p>
+					</div>
+				</div>
+			</section>
+			<section id="features">
+				<div class="features-info">
+					<div class="content_position">
+						<div class="title">
+							<h2>Features</h2>
+						</div>
+						<div class="features-content">
+							<div class="feature">
+								<div class="feature-title">
+									<img src="images/feature icon/coctail.png" alt="Features icon">
+									<p>200+ coctails</p>
+								</div>
+								<div class="feature-description">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="feature-title">
+									<img src="images/feature icon/humburger.png" alt="Features icon">
+									<p>Huge burgers</p>
+								</div>
+								<div class="feature-description">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="features-paralax">
+					<div class="grad">
+						<div class="content_position">
+							<h2>Delicious breakfast</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="call-to-action">
+				<div class="content_position">
+					<div class="contact-info-block">
+						<p>Call us to book a table</p>
+						<h2>01234567890</h2>
+					</div>
+				</div>
+			</section>
+			<section id="footer">
+				<div class="content_position">
+					<div class="logo">
+						<a href="#">
+							<img src="images/mini_logo.png" alt="logo">
+						</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+					<div class="nav">
+						<ul class="nav-list">
+							<li class="nav-item"><a href="#our-dishes">Dishes</a></li>
+							<li class="nav-item"><a href="#quotes">Quotes</a></li>
+							<li class="nav-item"><a href="#features">Features</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  		<script type="text/javascript" src="slick/slick.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".dishes-carousel").slick({
+					slidesToShow: 2,
+					slidesToScroll: 1
+				});
+			});
+		</script>
+	</body>
+</html>
