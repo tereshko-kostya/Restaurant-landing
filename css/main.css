@@ -19,10 +19,20 @@ h6 {
   width: auto;
   margin: 0 130px;
 }
+@media screen and (max-width: 900px) {
+  .content_position .content_position {
+    margin: 0;
+  }
+}
 .title {
   text-align: center;
   font-size: 42px;
   margin: 45px auto;
+}
+@media screen and (max-width: 900px) {
+  .title .title {
+    margin: 15px auto;
+  }
 }
 /* 1B Cover Block*/
 #cover {
@@ -181,6 +191,17 @@ h6 {
 #features .features-info .features-content .feature .feature-description p {
   font-family: 'Roboto', sans-serif;
 }
+@media screen and (max-width: 900px) {
+  #features .features-info .features-content .feature .feature {
+    width: 90%;
+    float: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  #features .features-info .features-info {
+    height: auto;
+  }
+}
 #features .features-paralax {
   background: url('/images/paralax_background1.jpg');
   background-size: cover;
@@ -228,6 +249,13 @@ h6 {
   font-family: 'Abril Fatface', cursive;
   font-size: 42px;
 }
+@media screen and (max-width: 900px) {
+  #call-to-action .contact-info-block .contact-info-block {
+    top: 25%;
+    left: 0;
+    margin: 0;
+  }
+}
 /* 6B Footer Block*/
 #footer {
   width: 100%;
@@ -260,4 +288,9 @@ h6 {
   text-decoration: none;
   font-size: 18px;
   color: #eaeaea;
+}
+@media screen and (max-width: 900px) {
+  #footer .nav .nav {
+    display: none;
+  }
 }

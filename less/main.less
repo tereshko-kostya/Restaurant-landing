@@ -20,11 +20,23 @@ h1, h2, h3, h4, h5, h6{
 .content_position{
 	width: auto;
 	margin: 0 130px;
+	
+	@media screen and (max-width: 900px) {
+		.content_position{
+			margin: 0;
+		}
+	}
 }
 .title{
 	text-align: center;
 	font-size: 42px;
 	margin: 45px auto;
+
+	@media screen and (max-width: 900px) {
+		.title{
+			margin: 15px auto;
+		}
+	}
 }
 
 /* 1B Cover Block*/
@@ -201,8 +213,21 @@ h1, h2, h3, h4, h5, h6{
 						font-family: @roboto;
 					}
 				}
+
+				@media screen and (max-width: 900px) {
+					.feature{
+						width: 90%;
+						float: none;
+					}
+				}
 			}
 		}	
+
+		@media screen and (max-width: 900px) {
+			.features-info{
+				height: auto;
+			}	
+		}
 	}
 
 	.features-paralax{
@@ -256,6 +281,14 @@ h1, h2, h3, h4, h5, h6{
 			font-family: @abril;
 			font-size: 42px;
 		}
+
+		@media screen and (max-width: 900px) {
+			.contact-info-block{
+				top: 25%;
+				left: 0;
+				margin: 0;
+			}
+		}
 	}
 }
 
@@ -294,11 +327,10 @@ h1, h2, h3, h4, h5, h6{
 				}
 			}
 		}
-	}
-}
-
-@media screen and (max-width: 900px){
-	body{
-
+		@media screen and (max-width: 900px) {
+			.nav{
+				display: none;
+			}
+		}
 	}
 }
