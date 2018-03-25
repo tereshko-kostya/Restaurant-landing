@@ -233,6 +233,7 @@ h6 {
   width: 100%;
   height: 400px;
   background: url('/images/call_background1.jpg');
+  background-size: cover;
   position: relative;
 }
 #call-to-action .contact-info-block {
